@@ -1,0 +1,39 @@
+3. Describes Tim-Berners-Lee based in many proprieties that link to other data.
+
+----
+
+4. 
+
+@prefix tim: <https://dbpedia.org/page/Tim_Berners-Lee>
+tim:this dbo:birthDate "1955-06-08"^^xsd:date .
+tim:this dbo:birthName "Timothy John Berners-Lee"@en .
+tim:this dbo:spouse dbr:Rosemary Leith .
+
+----
+
+5. It provides another properties of tbe instance dbo:birthDate, like rdf:type, rdfs:domain, rdfs:label, ...
+
+----
+
+6. If the value is an hyperlink, it refers to another object, case not it's only a literal.
+
+----
+
+7. dbpedia.org/resource/The_Queen's_College,_Oxford
+
+----
+
+8. https://dbpedia.org/page/The_Queen's_College,_Oxford
+
+The /resource URI represents the object.
+The /page URI represents the human-readable document about that object. 
+
+----
+
+9. 1955-01-01; xsd:gYear means "Period of one year".
+
+The value 2 represents the number of Tim-Berners-Lee's children. THe type is xsd:integer.
+
+----
+
+11. BBC - http://www.bbc.co.uk/things/2166d5db-3cd1-4d8a-a066-bddb220ef216#id
