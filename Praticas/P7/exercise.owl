@@ -1,0 +1,856 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-10="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Drink"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Pet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Cigarettes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Cigarettes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Cigarettes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Chesterfields"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Kools"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Lucky_Strike"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Old_Gold"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Parliaments"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Color">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Blue"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Green"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ivory"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Red"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Yellow"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Drink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Drink">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Coffee"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Milk"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Orange_Juice"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Tea"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Water"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_1"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_2"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_3"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_4"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_5"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Color"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#English"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Japanese"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Norwegian"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Spaniard"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ukranian"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Drink"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Pet"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Cigarettes"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Pet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Pet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Dog"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Fox"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Horse"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Snails"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Zebra"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Blue -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Blue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Chesterfields -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Chesterfields">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty>
+                                                    <rdf:Description>
+                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                                                    </rdf:Description>
+                                                </owl:onProperty>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Fox"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty>
+                                            <rdf:Description>
+                                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                            </rdf:Description>
+                                        </owl:onProperty>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty>
+                                                    <rdf:Description>
+                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                                                    </rdf:Description>
+                                                </owl:onProperty>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Fox"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>11. The man who smokes Chesterfields lives in the house next to the man with the fox.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Coffee -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Coffee">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Green"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>4. Coffee is drunk in the green house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Dog -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Dog">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#English -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#English">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Red"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>2. The Englishman lives in the red house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Fox -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Fox">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Green -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Green">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ivory"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>6. The green house is immediately to the right of the ivory house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Horse -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Horse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_1 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_1">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_2 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_2">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <toRight rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_1"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_3 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_3">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <toRight rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_2"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_4 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_4">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <toRight rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_3"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_5 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_5">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+            </owl:Restriction>
+        </rdf:type>
+        <toRight rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_4"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ivory -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ivory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Japanese -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Japanese">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <smokes rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Parliaments"/>
+        <rdfs:comment>14. The Japanese smokes Parliaments.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Kools -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Kools">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty>
+                                                    <rdf:Description>
+                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                                                    </rdf:Description>
+                                                </owl:onProperty>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Horse"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty>
+                                            <rdf:Description>
+                                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                            </rdf:Description>
+                                        </owl:onProperty>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty>
+                                                    <rdf:Description>
+                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                                                    </rdf:Description>
+                                                </owl:onProperty>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Horse"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Yellow"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>12. Kools are smoked in a house next to the house where the horse is kept.</rdfs:comment>
+        <rdfs:comment>8. Kools are smoked in the yellow house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Lucky_Strike -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Lucky_Strike">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Orange_Juice"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>13. The Lucky Strike smoker drinks orange juice.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Milk -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Milk">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#drinks"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_3"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>9. Milk is drunk in the middle house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Norwegian -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Norwegian">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#livesIn"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Blue"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty>
+                                    <rdf:Description>
+                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#toRight"/>
+                                    </rdf:Description>
+                                </owl:onProperty>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#hasColor"/>
+                                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Blue"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <livesIn rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#House_1"/>
+        <rdfs:comment>10. The Norwegian lives in the first house.</rdfs:comment>
+        <rdfs:comment>15. The Norwegian lives next to the blue house.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Old_Gold -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Old_Gold">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#smokes"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#owns"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Snails"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>7. The Old Gold smoker owns snails.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Orange_Juice -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Orange_Juice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Parliaments -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Parliaments">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Red -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Red">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Snails -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Snails">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Spaniard -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Spaniard">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <owns rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Dog"/>
+        <rdfs:comment>3. The Spaniard owns the dog.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Tea -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Tea">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ukranian -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Ukranian">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <drinks rdf:resource="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Tea"/>
+        <rdfs:comment>5. The Ukrainian drinks tea.</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Water -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Water">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Yellow -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Yellow">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Zebra -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/pedro/ontologies/2022/10/untitled-ontology-10#Zebra">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
